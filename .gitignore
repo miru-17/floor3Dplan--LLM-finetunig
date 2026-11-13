@@ -1,0 +1,16 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated data (recreate with: python src/dataset_prep.py --samples 120)
+data/raw/
+data/processed/
+data/predictions_test.jsonl
+
+# Model weights and exports (too large for GitHub)
+checkpoints/
+Modelfile
+*.zip

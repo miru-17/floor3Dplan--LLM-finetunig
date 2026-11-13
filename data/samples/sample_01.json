@@ -1,0 +1,220 @@
+{
+  "image_dimensions": {
+    "width": 1000,
+    "height": 1000
+  },
+  "rooms": [
+    {
+      "id": "room_1",
+      "type": "living_room",
+      "bbox": [
+        116,
+        116,
+        520,
+        587
+      ]
+    },
+    {
+      "id": "room_2",
+      "type": "dining_room",
+      "bbox": [
+        116,
+        597,
+        520,
+        884
+      ]
+    },
+    {
+      "id": "room_3",
+      "type": "kitchen",
+      "bbox": [
+        530,
+        116,
+        884,
+        587
+      ]
+    },
+    {
+      "id": "room_4",
+      "type": "bedroom",
+      "bbox": [
+        530,
+        597,
+        884,
+        884
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "id": "wall_ext_north",
+      "type": "exterior",
+      "start": [
+        104,
+        110
+      ],
+      "end": [
+        896,
+        110
+      ],
+      "bbox": [
+        104,
+        104,
+        116,
+        896
+      ]
+    },
+    {
+      "id": "wall_ext_south",
+      "type": "exterior",
+      "start": [
+        104,
+        890
+      ],
+      "end": [
+        896,
+        890
+      ],
+      "bbox": [
+        884,
+        104,
+        896,
+        896
+      ]
+    },
+    {
+      "id": "wall_ext_west",
+      "type": "exterior",
+      "start": [
+        110,
+        104
+      ],
+      "end": [
+        110,
+        896
+      ],
+      "bbox": [
+        104,
+        104,
+        896,
+        116
+      ]
+    },
+    {
+      "id": "wall_ext_east",
+      "type": "exterior",
+      "start": [
+        890,
+        104
+      ],
+      "end": [
+        890,
+        896
+      ],
+      "bbox": [
+        104,
+        884,
+        896,
+        896
+      ]
+    },
+    {
+      "id": "wall_int_vertical",
+      "type": "interior",
+      "start": [
+        592,
+        116
+      ],
+      "end": [
+        592,
+        884
+      ],
+      "bbox": [
+        116,
+        587,
+        884,
+        597
+      ]
+    },
+    {
+      "id": "wall_int_horizontal",
+      "type": "interior",
+      "start": [
+        116,
+        525
+      ],
+      "end": [
+        884,
+        525
+      ],
+      "bbox": [
+        520,
+        116,
+        530,
+        884
+      ]
+    }
+  ],
+  "doors": [
+    {
+      "id": "door_entrance",
+      "type": "entrance",
+      "bbox": [
+        876,
+        371,
+        904,
+        431
+      ]
+    },
+    {
+      "id": "door_2",
+      "type": "interior",
+      "bbox": [
+        512,
+        235,
+        538,
+        285
+      ]
+    },
+    {
+      "id": "door_3",
+      "type": "sliding",
+      "bbox": [
+        512,
+        686,
+        538,
+        732
+      ]
+    },
+    {
+      "id": "door_4",
+      "type": "interior",
+      "bbox": [
+        174,
+        579,
+        217,
+        605
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "id": "window_1",
+      "bbox": [
+        100,
+        635,
+        120,
+        720
+      ]
+    },
+    {
+      "id": "window_2",
+      "bbox": [
+        697,
+        100,
+        782,
+        120
+      ]
+    }
+  ]
+}

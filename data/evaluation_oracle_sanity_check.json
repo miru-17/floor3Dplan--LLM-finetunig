@@ -1,0 +1,62 @@
+{
+  "mode": "oracle_sanity_check (ground truth scored against itself - NOT model performance)",
+  "total_test_samples": 12,
+  "json_parse_rate_percent": 100.0,
+  "schema_validity_rate_percent": 100.0,
+  "per_class_metrics": {
+    "rooms": {
+      "tp@0.50": 48,
+      "fp@0.50": 0,
+      "fn@0.50": 0,
+      "precision@0.50": 1.0,
+      "recall@0.50": 1.0,
+      "f1@0.50": 1.0,
+      "f1@0.75": 1.0,
+      "mean_f1@[.50:.95]": 1.0,
+      "mean_matched_iou": 1.0,
+      "type_accuracy": 1.0
+    },
+    "walls": {
+      "tp@0.50": 72,
+      "fp@0.50": 0,
+      "fn@0.50": 0,
+      "precision@0.50": 1.0,
+      "recall@0.50": 1.0,
+      "f1@0.50": 1.0,
+      "f1@0.75": 1.0,
+      "mean_f1@[.50:.95]": 1.0,
+      "mean_matched_iou": 1.0,
+      "type_accuracy": 1.0
+    },
+    "doors": {
+      "tp@0.50": 48,
+      "fp@0.50": 0,
+      "fn@0.50": 0,
+      "precision@0.50": 1.0,
+      "recall@0.50": 1.0,
+      "f1@0.50": 1.0,
+      "f1@0.75": 1.0,
+      "mean_f1@[.50:.95]": 1.0,
+      "mean_matched_iou": 1.0,
+      "type_accuracy": 1.0
+    },
+    "windows": {
+      "tp@0.50": 39,
+      "fp@0.50": 0,
+      "fn@0.50": 0,
+      "precision@0.50": 1.0,
+      "recall@0.50": 1.0,
+      "f1@0.50": 1.0,
+      "f1@0.75": 1.0,
+      "mean_f1@[.50:.95]": 1.0,
+      "mean_matched_iou": 1.0
+    }
+  },
+  "macro": {
+    "precision@0.50": 1.0,
+    "recall@0.50": 1.0,
+    "f1@0.50": 1.0,
+    "f1@0.75": 1.0,
+    "mean_f1@[.50:.95]": 1.0
+  }
+}

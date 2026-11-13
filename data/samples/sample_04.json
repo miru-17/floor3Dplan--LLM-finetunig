@@ -1,0 +1,229 @@
+{
+  "image_dimensions": {
+    "width": 1000,
+    "height": 1000
+  },
+  "rooms": [
+    {
+      "id": "room_1",
+      "type": "living_room",
+      "bbox": [
+        89,
+        89,
+        492,
+        422
+      ]
+    },
+    {
+      "id": "room_2",
+      "type": "bathroom",
+      "bbox": [
+        89,
+        432,
+        492,
+        911
+      ]
+    },
+    {
+      "id": "room_3",
+      "type": "bedroom",
+      "bbox": [
+        502,
+        89,
+        911,
+        422
+      ]
+    },
+    {
+      "id": "room_4",
+      "type": "dining_room",
+      "bbox": [
+        502,
+        432,
+        911,
+        911
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "id": "wall_ext_north",
+      "type": "exterior",
+      "start": [
+        77,
+        83
+      ],
+      "end": [
+        923,
+        83
+      ],
+      "bbox": [
+        77,
+        77,
+        89,
+        923
+      ]
+    },
+    {
+      "id": "wall_ext_south",
+      "type": "exterior",
+      "start": [
+        77,
+        917
+      ],
+      "end": [
+        923,
+        917
+      ],
+      "bbox": [
+        911,
+        77,
+        923,
+        923
+      ]
+    },
+    {
+      "id": "wall_ext_west",
+      "type": "exterior",
+      "start": [
+        83,
+        77
+      ],
+      "end": [
+        83,
+        923
+      ],
+      "bbox": [
+        77,
+        77,
+        923,
+        89
+      ]
+    },
+    {
+      "id": "wall_ext_east",
+      "type": "exterior",
+      "start": [
+        917,
+        77
+      ],
+      "end": [
+        917,
+        923
+      ],
+      "bbox": [
+        77,
+        911,
+        923,
+        923
+      ]
+    },
+    {
+      "id": "wall_int_vertical",
+      "type": "interior",
+      "start": [
+        427,
+        89
+      ],
+      "end": [
+        427,
+        911
+      ],
+      "bbox": [
+        89,
+        422,
+        911,
+        432
+      ]
+    },
+    {
+      "id": "wall_int_horizontal",
+      "type": "interior",
+      "start": [
+        89,
+        497
+      ],
+      "end": [
+        911,
+        497
+      ],
+      "bbox": [
+        492,
+        89,
+        502,
+        911
+      ]
+    }
+  ],
+  "doors": [
+    {
+      "id": "door_entrance",
+      "type": "entrance",
+      "bbox": [
+        903,
+        208,
+        931,
+        267
+      ]
+    },
+    {
+      "id": "door_2",
+      "type": "interior",
+      "bbox": [
+        484,
+        324,
+        510,
+        373
+      ]
+    },
+    {
+      "id": "door_3",
+      "type": "interior",
+      "bbox": [
+        484,
+        573,
+        510,
+        643
+      ]
+    },
+    {
+      "id": "door_4",
+      "type": "interior",
+      "bbox": [
+        212,
+        414,
+        252,
+        440
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "id": "window_1",
+      "bbox": [
+        251,
+        907,
+        336,
+        927
+      ]
+    },
+    {
+      "id": "window_2",
+      "bbox": [
+        557,
+        73,
+        642,
+        93
+      ]
+    },
+    {
+      "id": "window_3",
+      "bbox": [
+        73,
+        594,
+        93,
+        679
+      ]
+    }
+  ]
+}
