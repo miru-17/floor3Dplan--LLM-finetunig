@@ -134,12 +134,3 @@ python src/visualize.py --image data/samples/sample_01.png --json data/samples/s
 All scripts resolve paths relative to the project root, so they can be run from any folder.
 On Colab, open `notebooks/floorplan_finetune_colab.ipynb` and run all cells (T4 GPU).
 
-## Ollama serving (optional)
-
-```bash
-python src/export_to_ollama.py --merge             # merges LoRA into fp16 weights, writes Modelfile
-ollama create floorplan-vlm -f Modelfile
-python src/inference.py --engine ollama --model floorplan-vlm --image data/samples/sample_01.png
-```
-If your Ollama version cannot import Qwen2.5-VL Safetensors directly, convert the merged folder to GGUF
-with llama.cpp first (see the docstring in `export_to_ollama.py`). The HF engine is the reference path.
